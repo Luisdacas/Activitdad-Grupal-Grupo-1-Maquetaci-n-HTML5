@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Producto</title>
+</head>
+
+<body>
+    <header>
+        <h1>SISTEMA DE FACTURACIÓN</h1>
+    </header>
+
+    <form action="factura.html" method="post">
+    <main>
+        <h2>Formulario Producto</h2>
+        <table border="1" witdh="100%">
+            <thead>
+                <tr>
+                    <th colspan="11">PRODUCTOS TECNOLÓGICOS</th>
+                </tr>
+            </thead>
+            <form action="./server.html" method="get"></form>
+            <tbody>
+                <tr>
+                    <td>PRODUCTOS A SELECCIONAR</td>
+                    <td >
+                        <label for="case">CASE</label>
+                        <input type="checkbox" name="producto[]" id="case" value="case" checked>
+                    </td>
+                    <td >
+                        <label for="monitor">MONITOR</label>
+                        <input type="checkbox" name="producto[]" id="monitor" value="monitor" checked>
+                    </td>
+                    <td >
+                        <label for="ram">RAM</label>
+                        <input type="checkbox" name="producto[]" id="ram" value="ram" checked>
+                    </td>
+                    <td >
+                        <label for="disco">DISCO DURO</label>
+                        <input type="checkbox" name="producto[]" id="disco" value="disco" checked>
+                    </td>
+                    <td >
+                        <label for="procesador">PROCESADOR</label>
+                        <input type="checkbox" name="producto[]" id="procesador" value="procesador" checked>
+                    </td>
+                    <td >
+                        <label for="gpu">TARJETA GRAFICA (GPU)</label>
+                        <input type="checkbox" name="producto[]" id="gpu" value="gpu" checked>
+                    </td>
+                    <td >
+                        <label for="refrigeracion">REFRIGERACION DEL SISTEMA</label>
+                        <input type="checkbox" name="producto[]" id="refrigeracion" value="refrigeracion" checked>
+                    </td>
+                    <td >
+                        <label for="alimentacion">FUENTE DE ALIMENTACION</label>
+                        <input type="checkbox" name="producto[]" id="alimentacion" value="alimentacion" checked>
+                    </td>
+                    <td >
+                        <label for="placa">PLACA BASE</label>
+                        <input type="checkbox" name="producto[]" id="placa" value="placa" checked="checked">
+                    </td>
+                    <td>
+                        <label for="sistema">SISTEMA OPERATIVO</label>
+                        <input type="checkbox" name="producto[]" id="sistema" value="sistema" checked="checked">
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        CASE
+                    </td>
+                    <td colspan="2">
+                        <label for="case1">AORUS</label>
+                        <input type="radio" name="cases" id="case1" value="case1" checked="checked">
+                    </td>
+                    <td colspan="2">
+                        <label for="case2">CHASIS</label>
+                        <input type="radio" name="cases" id="case2">
+                    </td>
+                    <td colspan="2">
+                        <label for="case3">MUSETEX</label>
+                        <input type="radio" name="cases" id="case3">
+                    </td>
+                    <td colspan="2">
+                        <label for="case4">MIIX MAS 4</label>
+                        <input type="radio" name="cases" id="case4">
+                    </td>
+                    <td colspan="2">
+                        <label for="case5">AEMAGGEDDON AQUARON</label>
+                        <input type="radio" name="cases" id="case5">
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        MONITOR
+                    </td>
+                    <td colspan="2">
+                        <label for="monitor1">HP</label>
+                        <input type="radio" name="monitores" id="monitor1">
+                    </td>
+                    <td colspan="2">
+                        <label for="monitor2">SAMSUNG</label>
+                        <input type="radio" name="monitores" id="monitor2">
+                    </td>
+                    <td colspan="2">
+                        <label for="monitor3">LG</label>
+                        <input type="radio" name="monitores" id="monitor3" value="monitor3" checked>
+                    </td>
+                    <td colspan="2">
+                        <label for="monitor4">DELL</label>
+                        <input type="radio" name="monitores" id="monitor4">
+                    </td>
+                    <td colspan="2">
+                        <label for="monitor5">ASUS</label>
+                        <input type="radio" name="monitores" id="monitor5">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        RAM
+                    </td>
+                    <td colspan="2">
+                        <label for="ram8">RAM 8</label>
+                        <input type="radio" name="rams" id="ram8">
+                    </td>
+                    <td colspan="2">
+                        <label for="ram12">RAM 12</label>
+                        <input type="radio" name="rams" id="ram12">
+                    </td>
+                    <td colspan="2">
+                        <label for="ram16">RAM 16</label>
+                        <input type="radio" name="rams" id="ram16">
+                    </td>
+                    <td colspan="2">
+                        <label for="ram32">RAM 32</label>
+                        <input type="radio" name="rams" id="ram32" value="ram32" checked>
+                    </td>
+                    <td colspan="2">
+                        <label for="ram64">RAM 64</label>
+                        <input type="radio" name="rams" id="ram64">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        DISCO DURO
+                    </td>
+                    <td colspan="2">
+                        <label for="disco250">250GB</label>
+                        <input type="radio" name="discos" id="disco250">
+                    </td>
+                    <td colspan="2">
+                        <label for="disco500">500GB</label>
+                        <input type="radio" name="discos" id="disco500">
+                    </td>
+                    <td colspan="2">
+                        <label for="disco700">750GB</label>
+                        <input type="radio" name="discos" id="disco750">
+                    </td>
+                    <td colspan="2">
+                        <label for="disco1">1TB</label>
+                        <input type="radio" name="discos" id="disco1" value="disco1" checked>
+                    </td>
+                    <td colspan="2">
+                        <label for="disco2">2TB</label>
+                        <input type="radio" name="discos" id="disco2">
+                    </td colspan="2">
+                </tr>
+                <tr>
+                    <td>
+                        PROCESADOR
+                    </td>
+                    <td colspan="5">
+                        <label for="intel">INTEL</label>
+                        <input type="radio" name="procesadores" id="intel">
+                    </td>
+                    <td colspan="5">
+                        <label for="ryzen">RYZEN</label>
+                        <input type="radio" name="procesadores" id="ryzen" value="ryzen" checked>
+                    </td>
+                </tr>
+                <tr>
+                    <td>TARJETA GRAFICA</td>
+                    <td colspan="5">
+                        <label for="nvidia">NVIDIA</label>
+                        <input type="radio" name="graficos" id="nvidia" value="nvidia" checked>
+                    </td>
+                    <td colspan="5">
+                        <label for="amd">AMD RADEON</label>
+                        <input type="radio" name="graficos" id="amd">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        SISTEMA OPERATIVO
+                    </td>
+                    <td colspan="3">
+                        <label for="mac">MAC</label>
+                        <input type="radio" name="sistemas" id="mac">
+                    </td>
+                    <td colspan="4">
+                        <label for="windows">WINDOWS</label>
+                        <input type="radio" name="sistemas" id="windows">
+                    </td>
+                    <td colspan="3">
+                        <label for="linux">LINUX</label>
+                        <input type="radio" name="sistemas" id="linux" value="linux" checked>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="11">
+                     <input 
+                      type="submit"
+                      name="enviar"
+                      id="enviar"
+                      value="ENVIAR FACTURA"
+                      >
+                    </td>
+                </tr>
+            </tfoot>
+            </form>
+        </table>
+    </main>
+</body>
+
+</html>

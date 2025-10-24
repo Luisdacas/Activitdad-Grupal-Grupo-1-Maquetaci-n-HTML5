@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Clases Tablas</title>
+</head>
+
+<body>
+    <h1>FACTURACION</h1>
+    <br>
+    <table border="1" width="100%">
+        <thead>
+            <tr> <!-- fila de la tabla-->
+                <th rowspan="2"> <!-- el th pone negritas pq es encabezado-->
+                    DATOS DE FACTURACION
+                </th>
+            <tr> <!-- fila de la tabla-->
+                <th>
+                    DATOS DEL CLIENTE
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+
+                <td> <!-- el td es celda normal-->
+                    NOMBRE DEL CLIENTE
+                </td>
+                <td>
+                    <label for="nombre"></label>
+                    <input type="text" name="nombre" id="nombres" placeholder="Ingrese su nombre" autofocus maxlength="5"
+                minlength="3" required value="DAVID">
+                </td>
+               
+            </tr>
+
+            <tr>
+                <td>
+                    APELLIDO DEL CLIENTE
+                </td>
+                <td>
+                    <label for="apellido"></label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" autofocus maxlength="5"
+                minlength="3" required value="CERON">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    CEDULA 
+                </td>
+                <td>
+                    <label for="cedula"></label>
+                    <input type="text" name="cedula" id="cedula" placeholder="Ingrese su cedula" autofocus maxlength="5"
+                minlength="3" required value="1753949674">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    CORREO ELECTRONICO
+                </td>
+                <td>
+                    <label for="correo"></label>
+                    <input type="text" name="correo" id="correo" placeholder="Ingrese su correo" autofocus maxlength="5"
+                minlength="3" required value="@espe.edu.ec">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    DIRECCION 
+                </td>
+                <td>
+                <label for="direccion"></label>
+                    <input type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion" autofocus maxlength="5"
+                minlength="3" required value="Av Rio Zamora">
+                </td>
+            </tr>
+            
+             <tr>
+                <td>
+                    CIUDAD 
+                </td>
+                <td>
+                    <label for="ciudad"></label>
+                    <input type="text" name="ciudad" id="ciudad" placeholder="Ingrese su ciudad" autofocus maxlength="5"
+                minlength="3" required value="Quito">
+                </td>
+            </tr>
+
+             <tr>
+                <td>
+                    METODO DE PAGO 
+                </td>
+                <td>
+                    <label></label>
+            <label for="metodo de pago">TARJETA</label>
+            <input type="checkbox" name="metodo de pago[]" id="metodo de pago">
+
+            <label for="metodo de pago">TRANSFERENCIA</label>
+            <input type="checkbox" name="metodo de pago[]" id="metodo de pago">
+
+            <label for="metodo de pago">EFECTIVO</label>
+            <input type="checkbox" name="metodo de pago[]" id="metodo de pago">
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                
+            </tr>
+
+            <tr>
+                <td>
+                    GRACIAS POR SU COMPRA
+                </td>
+                <td >
+                    ADIOS
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
